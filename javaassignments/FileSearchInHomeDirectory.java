@@ -44,8 +44,8 @@ public class FileSearchInHomeDirectory{
          if (name.equals("exit"))break;
          result.clear(); //clear out previously filled out results for previous inputs
          int count = 0;  //to count the number of occurences of the file
-         
-         fileSearch.searchDirectory(new File("/home"), name);
+         String homeDir = System.getProperty("user.home");
+         fileSearch.searchDirectory(new File(homeDir), name);
 
          count = fileSearch.getResult().size();
 
@@ -75,8 +75,7 @@ public class FileSearchInHomeDirectory{
    /**
      * Prints the complete path if file matching regex is found. It searches in all directories and
      * subdirectories recursively.
-     * @param rgx The regular expression that has to be matched
-     * @param directory The home directory where search is carried out
+     * @param file The regular expression that has to be matched
      */
    private void search(File file){
       if (file.isDirectory()){
@@ -93,7 +92,7 @@ public class FileSearchInHomeDirectory{
                   Matcher m = p.matcher(temp.getName());  
                   boolean b = m.matches();  
                   if (b){
-                     result.add(temp.getAbsoluteFile().toString());
+                     result.add(temp.getAbsolutePath());
                   }
                }
             }
