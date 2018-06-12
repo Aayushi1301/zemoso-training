@@ -1,6 +1,6 @@
-package Utils;
+package utils;
 
-public class utils {
+public class Utils {
     /**
      * Checks whether the input is Exit or not
      * @param input Actual input passed

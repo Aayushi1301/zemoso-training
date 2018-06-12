@@ -1,6 +1,5 @@
 package main;
-import Solution.FileSearchInHomeDirectory;
-import Utils.utils;
+import utils.Utils;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -17,18 +16,16 @@ public class Main {
 
         String s;
         Scanner input = new Scanner(System.in);
-        FileSearchInHomeDirectory path = new FileSearchInHomeDirectory();
+        solution.FileSearchInDirectory fileojbect = new solution.FileSearchInDirectory();
         do{
             boolean found;
             System.out.println("Enter java regular expression to be matched with file name");
             System.out.println("Enter \"exit\" to exit");
             s=input.next();
-            if (s.equals("exit"))break;
-            char separator = File.separatorChar;
-            String directory=separator+System.getProperty("user.home");
-            found=path.findFiles(s, directory);
+            String directory=File.separatorChar+System.getProperty("user.home");
+            found=fileojbect.findFiles(s, directory);
             List<File> filesearches;
-            filesearches=path.getmResultArray();
+            filesearches=fileojbect.getmResultArray();
             if(!found){
                 System.out.println("No result found!");
             }
@@ -37,7 +34,7 @@ public class Main {
                     System.out.println("Found:  "+file);
                 }
             }
-            path.clear();
-        }while(!utils.shouldExit(s));
+            fileojbect.clear();
+        }while(!Utils.shouldExit(s));
     }
 }
