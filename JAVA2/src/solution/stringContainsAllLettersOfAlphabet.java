@@ -9,11 +9,11 @@ public class stringContainsAllLettersOfAlphabet {
     public boolean check(String str)
     {
         /**
-         * Checks whether input string contains all letters of ana alphabet using <b>regex</b>.
+         * Checks whether input string contains all letters of an alphabet.
          * @param str The input string
          * @return true if contains all letters of alphabet, otherwise false
          */
-        Set<Character> set = new HashSet<Character>();//a hashset to store all the charcaters in the string
+        Set<Character> set = new HashSet<Character>();//a hashset to store all the characters in the string
         if(str==null)
             System.out.println("Empty string not allowed");
         else {

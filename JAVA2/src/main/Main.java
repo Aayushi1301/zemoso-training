@@ -16,7 +16,6 @@ public class Main {
         String str;
         stringContainsAllLettersOfAlphabet stringObj=new stringContainsAllLettersOfAlphabet();
         System.out.println("enter the string");
-        System.out.println("Enter \"exit\" to exit");
         Scanner sc=new Scanner(System.in);
         str=sc.nextLine();
         if(stringObj.check(str))
