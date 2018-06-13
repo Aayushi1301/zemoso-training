@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faf4b57f-445a-4458-9d82-02dab24964ed" name="Default" comment="Java assignment 2">
+    <list default="true" id="faf4b57f-445a-4458-9d82-02dab24964ed" name="Default" comment="Refactored Java assignment 2">
       <change beforePath="$PROJECT_DIR$/../JAVA1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA2/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA2/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA2/solution/stringContainsAllLettersOfAlphabet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA2/test/ContainsAllAlphabetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA2/test/ContainsAllAlphabetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution/stringContainsAllLettersOfAlphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/StringContainsAllLettersOfAlphabet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,32 +25,28 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringContainsAllLettersOfAlphabet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/solution/stringContainsAllLettersOfAlphabet.java">
+      <file leaf-file-name="StringContainsAllLettersOfAlphabet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solution/StringContainsAllLettersOfAlphabet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="130">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#568#579#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +55,8 @@
       <file leaf-file-name="ContainsAllAlphabetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="270">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +86,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/Utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/solution/stringContainsAllLettersOfAlphabet.java" />
+        <option value="$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java" />
+        <option value="$PROJECT_DIR$/src/solution/StringContainsAllLettersOfAlphabet.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -174,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ContainsAllAlphabetTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="JAVA2" />
@@ -256,8 +261,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ContainsAllAlphabetTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ContainsAllAlphabetTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -282,19 +287,17 @@
       <option name="project" value="LOCAL" />
       <updated>1528875065406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java assignment 2 added space and time complexity">
+      <created>1528875666183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528875666183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 11h 38m 29s.xml">
-      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 11h 41m 32s.xml">
-      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 11h 43m 19s.xml">
-      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 11h 52m 27s.xml">
       <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
     </history-entry>
@@ -310,13 +313,27 @@
     <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 12h 52m 16s.xml">
       <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 13h 53m 47s.xml">
+      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 14h 02m 38s.xml">
+      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 14h 03m 24s.xml">
+      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 14h 42m 48s.xml">
+      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsAllAlphabetTest - 2018.06.13 at 14h 43m 18s.xml">
+      <configuration name="ContainsAllAlphabetTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7806000" />
+    <option name="totallyTimeSpent" value="10804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -435,7 +452,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created java assignment 2" />
     <MESSAGE value="Java assignment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java assignment 2" />
+    <MESSAGE value="Java assignment 2 added space and time complexity" />
+    <MESSAGE value="Refactored Java assignment 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Java assignment 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,12 +463,6 @@
           <url>file://$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java</url>
           <line>9</line>
           <properties field="chk" class="test.ContainsAllAlphabetTest" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/Main.java</url>
@@ -488,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solution/stringContainsAllLettersOfAlphabet.java">
+    <entry file="file://$PROJECT_DIR$/src/solution/StringContainsAllLettersOfAlphabet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
@@ -528,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solution/stringContainsAllLettersOfAlphabet.java">
+    <entry file="file://$PROJECT_DIR$/src/solution/StringContainsAllLettersOfAlphabet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
@@ -559,8 +572,25 @@
     <entry file="file://$PROJECT_DIR$/src/utils/Utils.java" />
     <entry file="file://$PROJECT_DIR$/src/test/ContainsAllAlphabetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution/StringContainsAllLettersOfAlphabet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -570,28 +600,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/solution/stringContainsAllLettersOfAlphabet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#568#579#0" expanded="true" />
-          </folding>
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>

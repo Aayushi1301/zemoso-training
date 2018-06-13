@@ -1,20 +1,20 @@
 package main;
-import solution.stringContainsAllLettersOfAlphabet;
+import solution.StringContainsAllLettersOfAlphabet;
 import java.util.Scanner;
 /**
  * Main class.
  * Program to calculate whether the input by the user contains all letters from a-z
  */
 public class Main {
+    /**
+     * Main function that takes input
+     * @param args not used
+     */
     public static void main(String[] args) {
 
-        /**
-         * Main function that takes input
-         * @param args not used
-         * @throws IOException as using input stream for taking input from user
-         */
+
         String str;
-        stringContainsAllLettersOfAlphabet stringObj=new stringContainsAllLettersOfAlphabet();
+        StringContainsAllLettersOfAlphabet stringObj=new StringContainsAllLettersOfAlphabet();
         System.out.println("enter the string");
         Scanner sc=new Scanner(System.in);
         str=sc.nextLine();

@@ -1,13 +1,13 @@
 package test;
 import org.junit.Test;
-import solution.stringContainsAllLettersOfAlphabet;
+import solution.StringContainsAllLettersOfAlphabet;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
 /**
  * Test class to test CheckAlphabets class
  */
 public class ContainsAllAlphabetTest {
-    private  stringContainsAllLettersOfAlphabet chk = new stringContainsAllLettersOfAlphabet();
+    private  StringContainsAllLettersOfAlphabet chk = new StringContainsAllLettersOfAlphabet();
 
     @Test
     public void checkerTest1() {
@@ -21,6 +21,23 @@ public class ContainsAllAlphabetTest {
     }
     @Test
     public void checkerTest3(){
+
         assertFalse(chk.check(null));
     }
+    @Test
+    public void checkerTest4() {
+        String s=",,,,,,";
+        assertFalse(chk.check(s));
+    }
+    @Test
+    public void checkerTest5() {
+        String s="12345";
+        assertFalse(chk.check(s));
+    }
+    @Test
+    public void checkerTest6() {
+        String s="aaaaaaaaaa";
+        assertFalse(chk.check(s));
+    }
+
 }
