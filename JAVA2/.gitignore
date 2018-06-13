@@ -1,3 +1,5 @@
 out
+out/production/
+JAVA2.iml
 .idea/vcs.xml
 /.idea/workspace.xml
