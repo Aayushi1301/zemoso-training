@@ -20,10 +20,17 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));Scanner input=new Scanner(System.in);
         String s=null;
         System.out.println("Enter signup date and current date in \'dd-mm-yyyy\' dateform separated by space");
-        s=br.readLine();
+        if(args.length==2)
+        {
+               s=args[0]+" "+args[1];
+        }
+        else {
+            s = br.readLine();
+        }
         if(s.matches("^\\d+\\-\\d+\\-\\d+[ ]+\\d+\\-\\d+\\-\\d+$")) {
             String[] dates = s.split(" ");
             KYCDateRange form = new KYCDateRange(dates[0], dates[1]);
+
             if (form.validSignupDate()) {
                 Date anniv = form.AnniversaryDate();
                 System.out.println("You can file your KYC for dates: " + form.generateFormDateRange(anniv));
