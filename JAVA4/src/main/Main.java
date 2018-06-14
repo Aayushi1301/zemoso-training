@@ -1,4 +1,5 @@
 package main;
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
 import solution.KYCDateRange;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,8 +16,7 @@ public class Main {
      * It prints the range of form date for filling the KYC form
      * @param args no use
      */
-    public static void main(String[] args)throws IOException
-    {
+    public static void main(String[] args) throws ParseException, java.text.ParseException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));Scanner input=new Scanner(System.in);
         String s=null;
         System.out.println("Enter signup date and current date in \'dd-mm-yyyy\' dateform separated by space");

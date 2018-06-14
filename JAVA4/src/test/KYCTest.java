@@ -19,7 +19,7 @@ public class KYCTest {
     private SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
     @Test
-    public void validSignupDateTest(){
+    public void validSignupDateTest()throws ParseException{
         //the format is being checked in the main function so null cases wont occur
         obj = new KYCDateRange("01-01-2001","01-03-2013");
         assertTrue(obj.validSignupDate());
@@ -55,7 +55,7 @@ public class KYCTest {
     }
 
     @Test
-    public void generateFormDateRangeTest()  {
+    public void generateFormDateRangeTest() throws ParseException {
         //validation carried out so input dates are valid
         obj=new KYCDateRange("1-1-2014","31-1-2014");
         assertEquals("01-01-2014 to 31-01-2014",obj.generateFormDateRange(obj.AnniversaryDate()));
