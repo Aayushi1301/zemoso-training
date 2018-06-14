@@ -15,13 +15,10 @@ public class KYCDateRange{
      * @param signupdate signup date of customer
      * @param currdate the current date when customer if filling the form
      */
-    public KYCDateRange(String signupdate,String currdate)  {
-        try {
+    public KYCDateRange(String signupdate,String currdate)throws ParseException  {
+
             signup= dateform.parse(signupdate);
             current = dateform.parse(currdate);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
     }
     /**
      * Checks whether the signup and current date entry is valid
