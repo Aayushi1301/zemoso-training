@@ -19,18 +19,36 @@ public class StringContainsAllLettersOfAlphabet {
     public boolean check(String str)
     {
 
-        Set<Character> set = new HashSet<Character>();//a hashset to store all the characters in the string
-        if(str==null)
-            System.out.println("Empty string not allowed");
-        else {
-
-            for (char c : str.toUpperCase().toCharArray()) {
-                if (Character.isLetter(c))
-                    set.add(c);
-            }
+        int count=0;
+        int arr[] = new int[26];
+        int i;
+        boolean flag=false;
+        str = str.replaceAll("[^a-zA-Z]", "");
+        str.toLowerCase();
+        if(str==null) {
+            System.out.println("string can't be null");
+        }
+        else
+            {
+              if(str.length()==26) {
+                for (i = 0; i < str.length(); i++) {
+                    if (count == 26) {
+                        flag = true;
+                        break;
+                    }
+                    char k = str.charAt(i);
+                    int j = (int) k - 'a';
+                    if (arr[j] == 0) {
+                        count++;
+                        arr[j] = 1;
+                    }
+                }
+              }
+            else
+                break;
 
         }
-        return (set.size() == 26);
+        return flag;
     }
 
 }
